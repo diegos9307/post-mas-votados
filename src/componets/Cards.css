@@ -1,0 +1,26 @@
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center h5 {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.img {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+div .main-container {
+  max-width: 700px;
+}
