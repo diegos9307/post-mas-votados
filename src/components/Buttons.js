@@ -1,8 +1,12 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 
-export default function Buttons() {
-  const handleAscendiente = (e) => {};
+export default function Buttons({ db, setDb }) {
+  const handleAscendiente = (e) => {
+    let ascValue = db.sort((a, b) => a.votes - b.votes);
+    console.log(ascValue);
+    setDb(ascValue);
+  };
 
   const handleDescendiente = (e) => {};
 

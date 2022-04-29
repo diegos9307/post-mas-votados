@@ -1,0 +1,14 @@
+.center-header {
+  padding: 1rem;
+  text-align: center;
+  min-width: 300px;
+}
+
+.center h1,
+h3 {
+  padding: 1rem;
+}
+
+.center-header .btn {
+  margin: 0.5rem;
+}

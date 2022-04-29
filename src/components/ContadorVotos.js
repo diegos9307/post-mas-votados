@@ -1,7 +1,7 @@
-/* import React from "react";
-import { Button } from "react-bootstrap";
+import React from "react";
+import { Alert, Button } from "react-bootstrap";
 
-export default function ContadorVotos() {
+export default function ContadorVotos(contValue) {
   return (
     <div>
       <Button variant="outline-secondary">
@@ -16,7 +16,7 @@ export default function ContadorVotos() {
           <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
         </svg>
       </Button>
-      <h5>5</h5>
+      {/* <h5>{contValue.votes}</h5> */}
       <Button variant="outline-secondary">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -32,4 +32,3 @@ export default function ContadorVotos() {
     </div>
   );
 }
- */
